@@ -1,0 +1,144 @@
+* {
+    box-sizing: content-box;
+}
+
+#main{
+    margin: 0.8em;
+}
+
+#yellowtop{
+    width: 100%;
+    height: 3.2em;
+    background-color: yellow;
+}
+
+#barwhite{
+    opacity: 80%;
+    filter: invert(100%);
+    width: 2em;
+    margin-left: 2.1em;
+    margin-top: 0.5em;
+}
+
+#contactinfo{
+    background-color: yellow;
+    height: 0px;
+    text-align: center;
+}
+
+.contactdivs{
+    height: 30px;
+    padding-top: 10px;
+}
+
+.contacttxt{
+    vertical-align: middle;
+}
+
+.contactsvg{
+    vertical-align: middle;
+    width: 1.5em;
+}
+
+#Logo{
+    float: right;
+    width: 12em;
+}
+
+#barblack{
+    opacity: 20%;
+    width: 2em;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    padding: 0.5em 1.1em;
+    border: solid;
+    border-radius: 1px;
+    border-width: 1px;
+    border-color: black;
+}
+
+#Dashboarddiv{
+    padding-top: 5px;
+}
+
+#businessinfo{
+    text-align: center;
+    height: 0px;
+    margin-top: 0.5em;
+}
+
+.businessdivs{
+    background-color: yellow;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.businesstxt{
+    vertical-align: middle;
+}
+
+.businesssvg{
+    vertical-align: middle;
+    width: 0.6em;
+}
+
+#autorijbewijsinfo{
+    text-align: center;
+    background-color: yellow;
+    height: 0px;
+}
+
+.rijbewijsdivs{
+    background-color: yellow;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.autotxt{
+    vertical-align: middle;
+}
+
+#motorrijbewijsinfo{
+    text-align: center;
+    background-color: yellow;
+    height: 0px;
+}
+
+#carouselMain{
+    margin-top: 1em;
+}
+
+.middleTopinfo{
+    position: relative;
+    height: 2em;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.captionSVG{
+    position: absolute;
+    width: 2em;
+    opacity: 60%;
+}
+
+.proeflesTxt{
+    margin-left: 2.5em;
+    position: absolute;
+    font-weight: bold;
+}
+
+.middleBottominfo{
+    margin-left: 1em;
+    width: 90%;
+}
+
+.gratisBTN{
+    background-color: yellow;
+    border: none;
+    font-weight: 500;
+    padding: 10px 70px;
+}
+
+.second{
+    margin-top:3em;
+}

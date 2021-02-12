@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Responsive.css">
+    <title>Responsive</title>
+</head>
+<body>
+
+<div id="main">
+
+    <div id="yellowtop">
+        <img class="svg" id="barwhite" src="images/bars-solid.svg" onclick="showcontactinfo()">
+    </div>
+
+    <div id="contactinfo" style="visibility: hidden;">
+        <div id="phonediv" class="contactdivs">
+            <img class="contactsvg" src="images/phone-solid.svg">
+            <span class="contacttxt">(06)51592324</span>
+        </div>
+        <div id="whatsappdiv" class="contactdivs">
+            <img class="contactsvg" src="images/whatsapp-brands.svg">
+            <span class="contacttxt">(06)51593452</span>
+        </div>
+        <div id="Timediv" class="contactdivs">
+            <img class="contactsvg" src="images/clock-regular.svg">
+            <span class="contacttxt">Ma - Za: 8:00 - 22:00</span>
+        </div>
+        <div id="Dashboarddiv" class="contactdivs">
+            <img class="contactsvg" src="images/tachometer-alt-solid.svg">
+            <span class="contacttxt">Dashboard</span>
+        </div>
+        <div id="Dashboarddiv" class="contactdivs">
+            <img class="contactsvg" src="images/facebook-square-brands.svg">
+            <img class="contactsvg" src="images/instagram-square-brands.svg">
+            <img class="contactsvg" src="images/twitter-square-brands.svg">
+        </div>
+    </div>
+
+    <div id="Header">
+        <img class="svg" id="barblack" src="images/bars-solid.svg" onclick="showbusinessinfo()">
+        <img id="Logo" src="images/Logo.png">
+    </div>
+
+    <div id="businessinfo" style="visibility: hidden;">
+        <div id="Autodiv" class="businessdivs" onclick="showautorijbewijs()">
+            <span class="businesstxt">AUTORIJBEWIJS</span>
+            <img class="businesssvg" src="images/caret-down-solid.svg">
+        </div>
+
+            <div id="autorijbewijsinfo" style="visibility: hidden;">
+                <div id="aanmelden" class="rijbewijsdivs">
+                    <span class="autotxt">AANMELDEN</span>
+                </div>
+                <div id="info" class="rijbewijsdivs">
+                    <span class="autotxt">INFO</span>
+                </div>
+                <div id="rijden" class="rijbewijsdivs">
+                    <span class="autotxt">TIJDEN</span>
+                </div>
+            </div>
+
+        <div id="motordiv" class="businessdivs" onclick="showmotorrijbewijs()">
+            <span class="businesstxt">MOTORRIJBEWIJS</span>
+            <img class="businesssvg" src="images/caret-down-solid.svg">
+        </div>
+
+        <div id="motorrijbewijsinfo" style="visibility: hidden;">
+            <div id="aanmelden" class="rijbewijsdivs">
+                <span class="autotxt">AANMELDEN</span>
+            </div>
+            <div id="info" class="rijbewijsdivs">
+                <span class="autotxt">INFO</span>
+            </div>
+            <div id="rijden" class="rijbewijsdivs">
+                <span class="autotxt">TIJDEN</span>
+            </div>
+        </div>
+
+        <div id="lesdiv" class="businessdivs">
+            <span class="businesstxt">THEORIELES</span>
+        </div>
+        <div id="cursusdiv" class="businessdivs">
+            <span class="businesstxt">OPFRIS CURSUS</span>
+        </div>
+        <div id="lesdiv" class="businessdivs">
+            <span class="businesstxt">CONTACT</span>
+        </div>
+    </div>
+
+    <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselMain" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselMain" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselMain" data-bs-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/slider1.jpg" class="d-block w-100" alt="slider1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider2.jpg" class="d-block w-100" alt="slider2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/slider3.jpg" class="d-block w-100" alt="slider3">
+          </div>
+        </div>
+    </div>
+
+    <div class="middleTopinfo">
+        <div class="caricon">
+            <img class="captionSVG" src="images/car-side-solid.svg">
+        </div>
+        <div class="proeflesTxt">
+            <p id="proeflesp">PROEFLES</p>
+        </div>
+    </div>
+    
+<hr>
+
+    <div class="middleBottominfo">
+
+        <div class="middlecaptions">
+            <p>
+                Weet u het nog niet zeker maar wilt u het toch even proberen bij flexi.
+                Dat kan, want met een vrijblijvende intakeles zit jij nergens aan vast.
+                Jij voelt meteen of er een klik is tussen jou en je rijinstructeur.
+                Is er geen klik, dan zijn er nog andere FLEXi rijinstructeurs.
+                Ook bij andere rijinstructeurs geldt de vrijblijvende intakeles! Wel zo mooi.
+            </p>
+        </div>
+        <div class="gratisBTNdiv">
+            <button class="gratisBTN">GRATIS proefles</button>
+        </div>
+
+    </div>
+
+    <div class="middleTopinfo second">
+        <div class="caricon">
+            <img class="captionSVG" src="images/map-solid.svg">
+        </div>
+        <div class="proeflesTxt">
+            <p id="proeflesp">LOCATIES</p>
+        </div>
+    </div>
+    
+<hr>
+
+    <div class="middleBottominfo">
+
+        <div class="middlecaptions">
+            <p>
+                Onze rijinstructeurs zijn verspreid over wel 
+                bijna heel Nederland. Er is dus bijna altijd 
+                wel een rijinstructeur bij jou in de buurt. Is er
+                bij jou in de buurt nog geen FLEXi rijschool?
+                Bel dan even met ons. Wij kijken dan samen
+                of we toch een FLEXi rijinstructeur kunnen regelen.
+                Klik hier de locaties aan.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="middleTopinfo second">
+        <div class="caricon">
+            <img class="captionSVG" src="images/graduation-cap-solid.svg">
+        </div>
+        <div class="proeflesTxt">
+            <p id="proeflesp">RIJLESSEN</p>
+        </div>
+    </div>
+    
+<hr>
+
+    <div class="middleBottominfo">
+
+        <div class="middlecaptions">
+            <p>
+                De rijlessen van FLEXi worden op basis van een
+                instructiekaart voorbereid en uitgevoerd. Op de 
+                instructiekaart houdt de FLEXi rijinstructeur 
+                jouw vorderingen in de gaten. Ook gebruiken de 
+                meeste FLEXi rijinstructeurs een dashcam, 
+                zodat de les of een deel van de les teruggekeken 
+                wordt. Hier halen jij en jouw FLEXi rijinstructeur 
+                de pos en nav uit en bespreekt dit met jou.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="video">
+
+    </div>
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="Responsive.js"></script>
+</body>
+</html>
