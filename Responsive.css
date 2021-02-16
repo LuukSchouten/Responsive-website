@@ -2,6 +2,11 @@
     box-sizing: content-box;
 }
 
+iframe{
+    width: 100%;
+    height: 320px;
+}
+
 #main{
     margin: 0.8em;
 }
@@ -141,4 +146,108 @@
 
 .second{
     margin-top:3em;
+}
+
+@media screen and (min-width:1300px){
+    body{
+       
+    }
+
+    #main{
+        margin: 0;
+    }
+
+    #barwhite{
+        display: none;
+    }
+
+    #barblack{
+        display: none;
+    }
+
+    #yellowtop{
+        position: absolute;
+        z-index: -1;
+    }
+
+    #contactinfo{
+        height: 3em;
+        float: right;
+        margin-top: 0.2em;
+        margin-right: 2em;
+    }
+
+    .contactdivs{
+        display: inline-block;
+        margin-right: 3em;
+    }
+
+    #Header{
+        padding-top: 3.2em;
+    }
+
+    #carouselMain{
+        margin-top: 4.5em;
+    }
+
+    #businessinfo{
+        background-color: white;
+        display: flex;
+        margin-right: 2em;
+        justify-content: flex-end;
+        height: 4em;
+        margin-top: 0;
+    }
+
+    .businesssvg{
+        display: none;
+    }
+
+    #motorrijbewijsinfo{
+        display: none;
+    }
+
+    #autorijbewijsinfo{
+        display: none;
+    }
+
+    .businessdivs{
+        background-color: white;
+        margin-top: 3em;
+        margin-right: 2em;
+        display: inline-block;
+    }
+
+    #Logo{
+        position: absolute;
+        float: none;
+        margin-left: 5em;
+        width: 25em;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .extra{
+        width: 25em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .proeflesdiv{
+        margin-top: 1em;
+    }
+
+    .video{
+        text-align: center;
+        margin-top: 3em;
+    }
+
+    iframe{
+        width: 1200px;
+        height: 720px;
+    }
 }

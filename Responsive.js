@@ -1,3 +1,5 @@
+var mediaquery = window.matchMedia("(min-width: 1300px)");
+
 
 function showcontactinfo() {
 var contactinfo = document.getElementById("contactinfo");
@@ -56,4 +58,19 @@ function showmotorrijbewijs(){
         main.style.height = newheight + 120 + "px";
     }
 }
+
+function responsivediv(){
+    var contactinfo = document.getElementById("contactinfo");
+    var businessinfo = document.getElementById("businessinfo");
+    if(mediaquery.matches){
+        contactinfo.style.visibility = "visible";
+        businessinfo.style.visibility = "visible";
+    }else{
+        contactinfo.style.visibility = "hidden";
+        businessinfo.style.visibility = "hidden";
+    }
+}
+
+responsivediv();
+mediaquery.addListener(responsivediv);
 
